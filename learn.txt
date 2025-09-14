@@ -1,0 +1,6 @@
+
+
+apiVersion
+Kind
+metadata
+spec

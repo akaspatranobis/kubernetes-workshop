@@ -1,2 +1,4 @@
 # kubernetes-workshop
 kubernetes-workshop by ec2tech
+
+# Miro Board Link - https://miro.com/welcomeonboard/TTVwTDBUU3Q3a1I3RG44L1hTZGYyeElYT1JaSUZuRGg2dW9nUnBiSFRVaE9HWjNJVHVxbHgwdlN0aUtsLzZXcGhyckhVc1I3ZGZaQ0paK0Y0dlV3UDJKaHJlUEg3VHJaVGRycTlZa2hjYUNZaE9EU1NSWU40c3FyS040cjdYRFJhWWluRVAxeXRuUUgwWDl3Mk1qRGVRPT0hdjE=?share_link_id=149555333559

@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+  namespace: app-2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: frontend
+          image: apatranobis59/frontend:2.0
+          env:
+            - name: API_URL
+              value: http://backend:5000
+          ports:
+            - containerPort: 5000
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend
+  namespace: app-2
+spec:
+  selector:
+    app: frontend
+  type: ClusterIP
+  ports:
+    - port: 80
+      targetPort: 5000
